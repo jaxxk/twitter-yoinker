@@ -1,9 +1,8 @@
 {
   "dependencies": {
-    "concurrently": "^6.3.0",
+    "concurrently": "^6.4.0",
     "express-draft": "^1.0.4"
   },
-  
   "scripts": {
     "dev": "concurrently 'cd frontend && npm start' 'cd backend && npm run dev'"
   }

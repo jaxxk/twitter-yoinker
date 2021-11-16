@@ -56,7 +56,6 @@
     "finalhandler": "^1.1.2",
     "forwarded": "^0.2.0",
     "fresh": "^0.5.2",
-    "fsevents": "^2.3.2",
     "get-stream": "^4.1.0",
     "glob-parent": "^5.1.2",
     "global-dirs": "^3.0.0",
@@ -165,7 +164,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon server.js"
+    "dev": "nodemon app.js"
   },
   "keywords": [],
   "author": "",

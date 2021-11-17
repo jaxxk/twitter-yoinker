@@ -1,9 +1,31 @@
 {
   "dependencies": {
     "concurrently": "^6.4.0",
-    "express-draft": "^1.0.4"
+    "currently": "^0.0.8",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-draft": "^1.0.4",
+    "morgan": "^1.10.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "twitter": "^1.7.1"
   },
   "scripts": {
     "dev": "concurrently 'cd frontend && npm start' 'cd backend && npm run dev'"
-  }
+  },
+  "name": "twitter-yoinker",
+  "description": "\"# twitter-yoinker\"",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaxxk/twitter-yoinker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaxxk/twitter-yoinker/issues"
+  },
+  "homepage": "https://github.com/jaxxk/twitter-yoinker#readme"
 }

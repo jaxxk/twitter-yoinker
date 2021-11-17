@@ -10,6 +10,7 @@ const client = new Twitter({
 
 router.get('/', async (req, res, next) => {
   res.send({ message: 'Ok api is working 🚀' });
+  //testing this
 });
 
 module.exports = router;

@@ -11,7 +11,7 @@ const client = new Twitter({
 router.get('/trends', async (req, res, next) => {
   const id = req.query.woeid;
   const trends = await client.get('trends/place.json', {
-    id : 1
+    id,
   })
   res.send(trends);
 });
